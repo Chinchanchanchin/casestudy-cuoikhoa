@@ -177,12 +177,14 @@ header hr {
     margin-left: 30px;
 }
 .ysl {
-    background-image: url(/src/image/ysl1.jpeg);
-    background-repeat: no-repeat;
     height: 300px;
     position: relative;
     z-index: 1;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ysl img {
+    height: 400px;
+    width: 800px;
 }
 
 .ysl a {
@@ -198,9 +200,9 @@ header hr {
     border-radius: 5px;
     background-color: black;
     color: white;
-    padding: 10px;
+    /* padding: 10px; */
     right: -15vmin;
-    top: -5vmin;
+    top: -60vmin;
     z-index: 3;
 }
 .ysl-text {
@@ -208,8 +210,9 @@ header hr {
     border-radius: 5px;
     box-shadow: 0 5px 10px rgb(209, 39, 39);
     z-index: 2;
-    left: -3vmin;
-    bottom: -5vmin;
+    left: 750px;
+    /* bottom: -5vmin; */
+    top: -60vmin;
     background: red;
    
 }
