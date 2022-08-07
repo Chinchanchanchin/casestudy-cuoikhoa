@@ -177,14 +177,17 @@ header hr {
     margin-left: 30px;
 }
 .ysl {
-    height: 300px;
-    position: relative;
-    z-index: 1;
+    /* position: relative;
+    z-index: 1; */
+    height: 400px;
+    margin-top: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .ysl img {
     height: 400px;
     width: 800px;
+    position: relative;
+    z-index: 1;
 }
 
 .ysl a {
@@ -200,7 +203,7 @@ header hr {
     border-radius: 5px;
     background-color: black;
     color: white;
-    /* padding: 10px; */
+    padding: 10px; 
     right: -15vmin;
     top: -60vmin;
     z-index: 3;
