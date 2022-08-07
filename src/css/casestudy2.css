@@ -177,7 +177,7 @@ header hr {
     margin-left: 30px;
 }
 .ysl {
-    background: url(/image/ysl1.jpeg);
+    background:url(/src/image/ysl1.jpeg);
     background-repeat: no-repeat;
     height: 300px;
     position: relative;
@@ -317,7 +317,7 @@ header hr {
     width: 300px;
     z-index: 2;
     margin-left: -5em;
-    margin-bottom: -3em;
+    margin-bottom: -0.5em;
 }
 
 .gallery-text {
